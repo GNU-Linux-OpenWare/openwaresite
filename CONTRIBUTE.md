@@ -22,4 +22,6 @@ After the PR has been reviewed and merged, each team member should pull the new 
 
 ``git push origin main``
 
-**NOTE** All PRs must be submitted to the ``slave`` branch and NOT the ``main`` branch.
+**NOTE** 
+- All PRs must be submitted to the ``slave`` branch and NOT the ``main`` branch.
+- Commit messages should be concise and describe each change i.e each commit should make a change to just one aspect of the project.
