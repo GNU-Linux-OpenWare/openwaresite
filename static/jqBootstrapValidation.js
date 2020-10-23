@@ -652,7 +652,7 @@
                     validator.message = data.message;
                   }
                   validator.lastFinished = true;
-                  $this.data("validation" + validator.validatorName + "Message", validator.message);
+               receive mail in flask app php   $this.data("validation" + validator.validatorName + "Message", validator.message);
                   // Timeout is set to avoid problems with the events being considered 'already fired'
                   setTimeout(function() {
                     $this.trigger("change.validation");
